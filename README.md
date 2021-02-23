@@ -28,7 +28,7 @@ Code structure:
   - css/styles.css - used to define media queries (for responsiveness), and other very simple CSS rules.
   - js/playground.js - handles the user interaction (on every mouse click adds new ball) 
   - js/balls.js -how the ball is bouncing, in which direction disapears
-test 
+- test 
   - balls.js-test testing the object ball. 
 
 
