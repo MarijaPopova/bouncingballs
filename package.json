@@ -1,0 +1,45 @@
+{
+  "name": "bouncing-balls",
+  "version": "0.0.1",
+  "description": "Bouncing ball",
+  "main": "src/index.html",
+  "staticFiles": {
+    "staticPath": "assets",
+    "watcherGlob": "**"
+  },
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build --experimental-scope-hoisting src/index.html",
+    "lint": "standard 'src/**/*.js'",
+    "lint-fix": "standard 'src/**/*.js' --fix"
+  },
+  "standard": {
+    "globals": [
+      "$",
+      "jQuery",
+      "fetch"
+    ],
+    "ignore": [
+      "node_modules/**"
+    ],
+    "parser": "babel-eslint",
+    "envs": [
+      "mocha",
+      "node"
+    ]
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.1.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.5.1",
+    "rimraf": "^3.0.2",
+    "standard": "^14.3.4"
+  },
+  "dependencies": {
+    "mocha": "^8.3.0"
+  }
+}
