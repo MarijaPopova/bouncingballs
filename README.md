@@ -24,12 +24,12 @@ Run the tests from this project npm test.
 
 Code structure: 
 src - root 
-  index.html - a simple HTML page, JS and CSS files are imported and the choices and canvas are defined here.
-  css/styles.css - used to define media queries (for responsiveness), and other very simple CSS rules.
-  js/playground.js - handles the user interaction (on every mouse click adds new ball) 
-  js/balls.js -how the ball is bouncing, in which direction disapears
+  - index.html - a simple HTML page, JS and CSS files are imported and the choices and canvas are defined here.
+  - css/styles.css - used to define media queries (for responsiveness), and other very simple CSS rules.
+  - js/playground.js - handles the user interaction (on every mouse click adds new ball) 
+  - js/balls.js -how the ball is bouncing, in which direction disapears
 test 
-  balls.js-test testing the object ball. 
+  - balls.js-test testing the object ball. 
 
 
 
