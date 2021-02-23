@@ -1,4 +1,4 @@
-# bouncing balls 
+# Bouncing balls 
 
  Bouncing balls simulation using JavaScript, CSS and HTML. (no third party libraries are used) . 
  
